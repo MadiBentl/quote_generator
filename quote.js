@@ -9,7 +9,5 @@ function generateQuote() {
 
 function displayQuote() {
   console.log("called");
-
     generateQuote();
-
 }
