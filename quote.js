@@ -24,5 +24,8 @@ function addToFavourites(){
     favQuotesArr.unshift(quote);
   }
 }
+function changeColour(){
+  //change background colour or gradient
+}
 
 init();
