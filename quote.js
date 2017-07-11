@@ -1,5 +1,5 @@
 var quote = "";
-
+var favQuotesArr = [];
 function generateQuote() {
   $(document).ready(function(){
     $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
@@ -14,5 +14,8 @@ function displayQuote() {
 }
 
 function addToFavourites(){
-  $("#favQuotes").append(quote);
+  if (favQuotesArr[0] != quote){
+    $("#favQuotes").append(quote);
+    favQuotesArr.unshift(quote);
+  }
 }
