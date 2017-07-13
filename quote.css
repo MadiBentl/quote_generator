@@ -1,0 +1,14 @@
+.grad-purple {
+  background-color: #C98BB9;
+/*  background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(to bottom right, #C98BB9, #ABA5CE); /* Standard syntax */
+}
+.grad-blue {
+  background-color: #74D3AE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #74D3AE, #519872); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #74D3AE, #519872); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #74D3AE, #519872); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #74D3AE, #519872); /* Standard syntax */
+}
