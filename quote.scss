@@ -1,14 +1,14 @@
 /*
-Error: Invalid CSS after "#C98BB9": expected expression (e.g. 1px, bold), was ";"
+Error: Invalid CSS after "100%": expected expression (e.g. 1px, bold), was ";"
         on line 2 of quote.css
 
-1: .grad-purple {
-2:   background-color: #C98BB9;
-3: /*  background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 *\/
-4:   /*background: -o-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Opera 11.1 to 12.0 *\/
-5:   /*background: -moz-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Firefox 3.6 to 15 *\/
-6:   /*background: linear-gradient(to bottom right, #C98BB9, #ABA5CE); /* Standard syntax *\/
-7: }
+1: body{
+2:   height: 100%;
+3:   margin: 0px;
+4: }
+5: .grad-purple {
+6:   background-color: #C98BB9;
+7:   background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 *\/
 
 Backtrace:
 quote.css:2
@@ -52,4 +52,4 @@ quote.css:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"#C98BB9\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of quote.css\A \A 1: .grad-purple {\A 2:   background-color: #C98BB9;\A 3: /*  background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 */\A 4:   /*background: -o-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Opera 11.1 to 12.0 */\A 5:   /*background: -moz-linear-gradient(bottom right, #C98BB9, #ABA5CE); /* For Firefox 3.6 to 15 */\A 6:   /*background: linear-gradient(to bottom right, #C98BB9, #ABA5CE); /* Standard syntax */\A 7: }"; }
+  content: "Error: Invalid CSS after \"100%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of quote.css\A \A 1: body{\A 2:   height: 100%;\A 3:   margin: 0px;\A 4: }\A 5: .grad-purple {\A 6:   background-color: #C98BB9;\A 7:   background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 */"; }

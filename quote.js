@@ -16,6 +16,7 @@ function generateQuote() {
 
 function displayQuote() {
     generateQuote();
+    changeColour();
 }
 
 function addToFavourites(){
@@ -26,6 +27,9 @@ function addToFavourites(){
 }
 function changeColour(){
   //change background colour or gradient
+  $(document).ready(function(){
+    $("body").addClass("grad-purple");
+  });
 }
 
 init();
