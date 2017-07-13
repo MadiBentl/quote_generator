@@ -1,10 +1,10 @@
 /*
-Error: Invalid CSS after "100%": expected expression (e.g. 1px, bold), was ";"
+Error: Invalid CSS after "0px": expected expression (e.g. 1px, bold), was ";"
         on line 2 of quote.css
 
-1: body{
-2:   height: 100%;
-3:   margin: 0px;
+1: html, body{
+2:   margin: 0px;
+3:   height: 100%;
 4: }
 5: .grad-purple {
 6:   background-color: #C98BB9;
@@ -52,4 +52,4 @@ quote.css:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"100%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of quote.css\A \A 1: body{\A 2:   height: 100%;\A 3:   margin: 0px;\A 4: }\A 5: .grad-purple {\A 6:   background-color: #C98BB9;\A 7:   background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 */"; }
+  content: "Error: Invalid CSS after \"0px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of quote.css\A \A 1: html, body{\A 2:   margin: 0px;\A 3:   height: 100%;\A 4: }\A 5: .grad-purple {\A 6:   background-color: #C98BB9;\A 7:   background: -webkit-linear-gradient(left top, #C98BB9, #ABA5CE); /* For Safari 5.1 to 6.0 */"; }

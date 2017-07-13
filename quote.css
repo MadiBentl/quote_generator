@@ -1,6 +1,6 @@
-body{
-  height: 100%;
+html, body{
   margin: 0px;
+  height: 100%;
 }
 .grad-purple {
   background-color: #C98BB9;
