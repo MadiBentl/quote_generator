@@ -25,19 +25,23 @@ function addToFavourites(){
     favQuotesArr.unshift(quote);
   }
 }
+function removeColours(){
+  $("body").removeClass("grad-blue").removeClass("grad-orange").removeClass("grad-purple");
+}
 function changeColour(){
   //change background colour or gradient
   $(document).ready(function(){
     var random = Math.floor((Math.random() * 3) + 1);
+    removeColours();
     switch(random){
       case 1:
-        $("body").removeClass("grad-blue").removeClass("grad-orange").addClass("grad-purple");
+        $("body").addClass("grad-purple");
         break;
       case 2:
-        $("body").removeClass("grad-purple").removeClass("grad-orange").addClass("grad-blue");
+        $("body").addClass("grad-blue");
         break;
       case 3:
-        $("body").removeClass("grad-purple").removeClass("grad-blue").addClass("grad-orange");
+        $("body").addClass("grad-orange");
         break;
     }
   });
