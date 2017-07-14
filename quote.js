@@ -28,7 +28,18 @@ function addToFavourites(){
 function changeColour(){
   //change background colour or gradient
   $(document).ready(function(){
-    $("body").addClass("grad-purple");
+    var random = Math.floor((Math.random() * 3) + 1);
+    switch(random){
+      case 1:
+        $("body").removeClass("grad-blue").removeClass("grad-orange").addClass("grad-purple");
+        break;
+      case 2:
+        $("body").removeClass("grad-purple").removeClass("grad-orange").addClass("grad-blue");
+        break;
+      case 3:
+        $("body").removeClass("grad-purple").removeClass("grad-blue").addClass("grad-orange");
+        break;
+    }
   });
 }
 
