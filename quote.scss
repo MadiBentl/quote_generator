@@ -9,8 +9,11 @@ html, body{
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-#quoteSpace p:last-child {
-  margin-left: 30px;
+#quoteSpace {
+  height: 200px;
+  p:last-child {
+    margin-left: 30px;
+  }
 }
 .grad-purple {
   background-color: #904C77;
