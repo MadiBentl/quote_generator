@@ -11,8 +11,21 @@ html, body {
   background-color: white;
   padding: 20px;
   text-align: center;
-  border: 10px solid rgba(255, 255, 255, 0.5);
+  border: 15px solid rgba(255, 255, 255, 0.5);
   background-clip: padding-box; }
+
+#favQuotes {
+  color: rgba(255, 255, 255, 0.5); }
+  #favQuotes :first-child {
+    color: white; }
+  #favQuotes :nth-child(2) {
+    color: rgba(255, 255, 255, 0.9); }
+  #favQuotes :nth-child(3) {
+    color: rgba(255, 255, 255, 0.8); }
+  #favQuotes :nth-child(4) {
+    color: rgba(255, 255, 255, 0.7); }
+  #favQuotes :nth-child(5) {
+    color: rgba(255, 255, 255, 0.6); }
 
 #quoteSpace {
   height: 200px; }

@@ -11,10 +11,26 @@ html, body{
   background-color: white;
   padding:20px;
   text-align: center;
-  border: 10px solid rgba(255, 255, 255, .5);
+  border: 15px solid rgba(255, 255, 255, .5);
   background-clip: padding-box;
-
-
+}
+#favQuotes {
+  :first-child{
+    color:rgb(255, 255, 255);
+  }
+  :nth-child(2){
+    color:rgba(255, 255, 255, .9);
+  }
+  :nth-child(3){
+    color:rgba(255, 255, 255, .8);
+  }
+  :nth-child(4){
+    color:rgba(255, 255, 255, .7);
+  }
+  :nth-child(5){
+    color:rgba(255, 255, 255, .6);
+  }
+  color:rgba(255, 255, 255, .5);
 }
 #quoteSpace {
   height: 200px;
