@@ -10,7 +10,8 @@ html, body {
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  border: 10px solid rgba(255, 255, 255, 0.5); }
 
 #quoteSpace {
   height: 200px; }
