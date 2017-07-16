@@ -9,6 +9,9 @@ html, body{
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+#quoteSpace p:last-child{
+  margin-left: 30px;
+}
 .grad-purple {
   background-color: #904C77;
   background: -webkit-linear-gradient(left top, #904C77, #CB8589); /* For Safari 5.1 to 6.0 */
