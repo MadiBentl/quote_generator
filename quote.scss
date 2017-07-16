@@ -1,55 +1,35 @@
-/*
-Error: Invalid CSS after "0px": expected expression (e.g. 1px, bold), was ";"
-        on line 2 of quote.css
-
-1: html, body{
-2:   margin: 0px;
-3:   height: 100%;
-4: }
-5: #circle {
-6:   position: absolute;
-7:   left: 50%;
-
-Backtrace:
-quote.css:2
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/parser.rb:738:in `assert_done'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/parser.rb:76:in `parse'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/parser.rb:240:in `parse'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script.rb:27:in `parse'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:1151:in `parse_script'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:721:in `parse_property'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:692:in `parse_property_or_rule'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:658:in `parse_line'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:545:in `block in build_tree'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `each'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `build_tree'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/madisonbentley/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"0px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of quote.css\A \A 1: html, body{\A 2:   margin: 0px;\A 3:   height: 100%;\A 4: }\A 5: #circle {\A 6:   position: absolute;\A 7:   left: 50%;"; }
+html, body{
+  margin: 0px;
+  height: 100%;
+}
+#circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#quoteSpace p:last-child {
+  margin-left: 30px;
+}
+.grad-purple {
+  background-color: #904C77;
+  background: -webkit-linear-gradient(left top, #904C77, #CB8589); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #904C77, #CB8589); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #904C77, #CB8589); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #904C77, #CB8589); /* Standard syntax */
+}
+.grad-blue {
+  background-color: #94B0DA; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #94B0DA, #0C4767); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #94B0DA, #0C4767); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #94B0DA, #0C4767); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #94B0DA, #0C4767); /* Standard syntax */
+}
+.grad-orange {
+  background-color: #FF0054; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FF0054, #FB5607); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FF0054, #FB5607); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FF0054, #FB5607); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF0054, #FB5607); /* Standard syntax */
+}

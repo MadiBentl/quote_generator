@@ -1,35 +1,50 @@
-html, body{
+html, body {
   margin: 0px;
-  height: 100%;
-}
+  height: 100%; }
+
 #circle {
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-#quoteSpace p:last-child{
-  margin-left: 30px;
-}
+  transform: translate(-50%, -50%); }
+
+#quoteSpace p:last-child {
+  margin-left: 30px; }
+
 .grad-purple {
   background-color: #904C77;
-  background: -webkit-linear-gradient(left top, #904C77, #CB8589); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #904C77, #CB8589); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #904C77, #CB8589); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #904C77, #CB8589); /* Standard syntax */
-}
+  background: -webkit-linear-gradient(left top, #904C77, #CB8589);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #904C77, #CB8589);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #904C77, #CB8589);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #904C77, #CB8589);
+  /* Standard syntax */ }
+
 .grad-blue {
-  background-color: #94B0DA; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #94B0DA, #0C4767); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #94B0DA, #0C4767); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #94B0DA, #0C4767); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #94B0DA, #0C4767); /* Standard syntax */
-}
+  background-color: #94B0DA;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #94B0DA, #0C4767);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #94B0DA, #0C4767);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #94B0DA, #0C4767);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #94B0DA, #0C4767);
+  /* Standard syntax */ }
+
 .grad-orange {
-  background-color: #FF0054; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #FF0054, #FB5607); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #FF0054, #FB5607); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #FF0054, #FB5607); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #FF0054, #FB5607); /* Standard syntax */
-}
+  background-color: #FF0054;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FF0054, #FB5607);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FF0054, #FB5607);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FF0054, #FB5607);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF0054, #FB5607);
+  /* Standard syntax */ }
+
+/*# sourceMappingURL=quote.css.map */
