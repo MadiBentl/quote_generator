@@ -3,6 +3,7 @@ var favQuotesArr = [];
 
 function init(){
   generateQuote();
+  changeColour();
 }
 
 function generateQuote() {
