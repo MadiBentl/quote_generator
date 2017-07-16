@@ -8,11 +8,14 @@ html, body{
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  background-color: white;
+  padding:20px;
+  text-align: center;
 }
 #quoteSpace {
   height: 200px;
   p:last-child {
-    margin-left: 30px;
+    margin-left: 100px;
   }
 }
 .grad-purple {
