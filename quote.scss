@@ -12,6 +12,9 @@ html, body{
   padding:20px;
   text-align: center;
   border: 10px solid rgba(255, 255, 255, .5);
+  background-clip: padding-box;
+
+
 }
 #quoteSpace {
   height: 200px;

@@ -11,7 +11,8 @@ html, body {
   background-color: white;
   padding: 20px;
   text-align: center;
-  border: 10px solid rgba(255, 255, 255, 0.5); }
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background-clip: padding-box; }
 
 #quoteSpace {
   height: 200px; }
