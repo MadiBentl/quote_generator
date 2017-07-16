@@ -2,6 +2,12 @@ html, body {
   margin: 0px;
   height: 100%; }
 
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #cdd7ee;
+  border: none; }
+
 #circle {
   position: absolute;
   left: 50%;
